@@ -7,6 +7,7 @@
         color: $font-seconadry;
         margin-top: 20px;
         font-weight: 400;
+        padding-left: 10px;
     }
 }
 .movie-container
@@ -15,4 +16,23 @@
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     grid-gap: 15px;
     padding-top: 10px;
+    padding-left: 10px;
+}
+.show-list
+{
+    margin: 20px 0px;
+     h2{
+        color: $font-seconadry;
+        margin-top: 20px;
+        font-weight: 400;
+        padding-left: 10px;
+    }
+}
+.show-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
